@@ -30,7 +30,7 @@
 #pragma mark - Custom Getters
 
 - (UIView *)pickerWithFrame:(CGRect)pickerFrame {
-    UIPickerView *pickerView = [[UIPickerView alloc] initWithFrame:pickerFrame];
+    UIPickerView *pickerView = [[BSPickerView alloc] initWithFrame:pickerFrame];
     pickerView.dataSource = self;
     pickerView.delegate = self;
     pickerView.showsSelectionIndicator = YES;
