@@ -15,7 +15,7 @@
 typedef void (^BSModalPickerViewCallback)(BOOL madeChoice);
 
 @interface BSModalPickerBase : UIView {
-    UIView* _picker;
+    UIView *_picker;
 }
 
 @property (nonatomic, strong) UIView *picker;

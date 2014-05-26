@@ -13,7 +13,7 @@
 @property (nonatomic, strong) UIToolbar *toolbar;
 @property (nonatomic, strong) UIView *panel;
 @property (nonatomic, strong) UIView *backdropView;
-@property (nonatomic, strong) BSModalPickerViewCallback callbackBlock;
+@property (nonatomic, copy) BSModalPickerViewCallback callbackBlock;
 
 @end
 
