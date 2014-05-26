@@ -6,9 +6,8 @@
 //  Copyright (c) 2012 Fickle Bits, LLC. All rights reserved.
 //
 
-#define BSMODALPICKER_PANEL_HEIGHT 260
+#define BSMODALPICKER_PANEL_HEIGHT   260
 #define BSMODALPICKER_TOOLBAR_HEIGHT 44
-#define BSMODALPICKER_BACKDROP_OPACITY 0.8
 
 #import <UIKit/UIKit.h>
 

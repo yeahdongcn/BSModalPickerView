@@ -85,7 +85,6 @@
 - (UIToolbar *)toolbar {
     if (!_toolbar) {
         _toolbar = [[BSToolbar alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, BSMODALPICKER_TOOLBAR_HEIGHT)];
-        _toolbar.barStyle = UIBarStyleBlackTranslucent;
         UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
                                                                                   target:self
                                                                                   action:@selector(onCancel:)];
@@ -107,7 +106,6 @@
 - (UIView *)backdropView {
     if (!_backdropView) {
         _backdropView = [[BSBackgroundView alloc] initWithFrame:self.bounds];
-        _backdropView.backgroundColor = [UIColor colorWithWhite:0 alpha:BSMODALPICKER_BACKDROP_OPACITY];
         _backdropView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _backdropView.alpha = 0;
     
